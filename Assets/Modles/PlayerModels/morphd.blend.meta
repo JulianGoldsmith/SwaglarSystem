@@ -1,0 +1,1369 @@
+fileFormatVersion: 2
+guid: e825b4def890a484a95136bfc35f2452
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm_Control_L
+    100002: Arm_Control_R
+    100004: Arm_Lower_L
+    100006: Arm_Lower_R
+    100008: Arm_Upper_L
+    100010: Arm_Upper_R
+    100012: Bone
+    100014: Character
+    100016: Chest
+    100018: Control
+    100020: Cube_001
+    100022: Elbow_L
+    100024: Elbow_R
+    100026: Foot_L
+    100028: Foot_R
+    100030: Handd
+    100032: Head
+    100034: Knee
+    100036: Knee_L
+    100038: Knee_R
+    100040: Leg_Control_L
+    100042: Leg_Control_R
+    100044: Leg_Lower_L
+    100046: Leg_Lower_R
+    100048: Leg_Upper_L
+    100050: Leg_Upper_R
+    100052: //RootNode
+    100054: Stomach
+    400000: Arm_Control_L
+    400002: Arm_Control_R
+    400004: Arm_Lower_L
+    400006: Arm_Lower_R
+    400008: Arm_Upper_L
+    400010: Arm_Upper_R
+    400012: Bone
+    400014: Character
+    400016: Chest
+    400018: Control
+    400020: Cube_001
+    400022: Elbow_L
+    400024: Elbow_R
+    400026: Foot_L
+    400028: Foot_R
+    400030: Handd
+    400032: Head
+    400034: Knee
+    400036: Knee_L
+    400038: Knee_R
+    400040: Leg_Control_L
+    400042: Leg_Control_R
+    400044: Leg_Lower_L
+    400046: Leg_Lower_R
+    400048: Leg_Upper_L
+    400050: Leg_Upper_R
+    400052: //RootNode
+    400054: Stomach
+    2300000: Control
+    2300002: Knee
+    3300000: Control
+    3300002: Knee
+    4300000: Control
+    4300002: Cube_001
+    4300004: Knee
+    7400000: Default Take
+    7400002: holingWeapons
+    7400004: holingWeaponsThing
+    7400006: Idle
+    7400008: IdleAS
+    7400010: IdleLookingAtHands
+    7400012: ReloadAR
+    7400014: RunCycle
+    7400016: ShootIdle
+    7400018: SwichWeapons_001
+    7400020: ThrowGrenage
+    7400022: WalkCycle
+    7400024: WalkCycle_L
+    7400026: WeaponHoldingAS
+    7400028: WeaponSwap
+    9500000: //RootNode
+    13700000: Cube_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: holingWeapons
+      takeName: holingWeapons
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: holingWeaponsThing
+      takeName: holingWeaponsThing
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleAS
+      takeName: IdleAS
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleLookingAtHands
+      takeName: IdleLookingAtHands
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ReloadAR
+      takeName: ReloadAR
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunCycle
+      takeName: RunCycle
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShootIdle
+      takeName: ShootIdle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwichWeapons_001
+      takeName: SwichWeapons_001
+      firstFrame: -1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ThrowGrenage
+      takeName: ThrowGrenage
+      firstFrame: -1
+      lastFrame: 91
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkCycle
+      takeName: WalkCycle
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkCycle_L
+      takeName: WalkCycle_L
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WeaponHoldingAS
+      takeName: WeaponHoldingAS
+      firstFrame: -1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WeaponSwap
+      takeName: WeaponSwap
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bone
+        weight: 1
+      - path: Character/Bone/Arm_Control_L
+        weight: 1
+      - path: Character/Bone/Arm_Control_R
+        weight: 1
+      - path: Character/Bone/Elbow_L
+        weight: 1
+      - path: Character/Bone/Elbow_R
+        weight: 1
+      - path: Character/Bone/Knee_L
+        weight: 1
+      - path: Character/Bone/Knee_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_L/Foot_L
+        weight: 1
+      - path: Character/Bone/Leg_Control_R
+        weight: 1
+      - path: Character/Bone/Leg_Control_R/Foot_R
+        weight: 1
+      - path: Character/Bone/Stomach
+        weight: 1
+      - path: Character/Bone/Stomach/Chest
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Arm_Upper_R/Arm_Lower_R/Handd
+        weight: 1
+      - path: Character/Bone/Stomach/Chest/Head
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R
+        weight: 1
+      - path: Character/Bone/Stomach/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Control
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Knee
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 88
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
